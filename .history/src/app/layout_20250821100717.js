@@ -28,7 +28,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${roboto.variable} ${poppins.variable} ${play.variable} antialiased`}>
-       {children}
+       
+        {children}
       </body> 
     </html>
   );

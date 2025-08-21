@@ -19,12 +19,11 @@
 
 .menu-title {
   font-size: 14px;
-  font-weight: 700;
-  color: #dfddd9;
+  font-weight: 600;
+  color: #6b7280;
   text-transform: uppercase;
   margin-bottom: 10px;
   letter-spacing: 0.5px;
-  font-family: Poppins, sans-serif;
 }
 
 .menu-link {
@@ -45,7 +44,7 @@
 }
 
 .menu-icon {
-  color: #f7a26a;
+  color: #6b7280;
   transition: color 0.2s ease;
 }
 

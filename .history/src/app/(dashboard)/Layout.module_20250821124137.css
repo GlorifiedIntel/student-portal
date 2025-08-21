@@ -1,0 +1,42 @@
+.dashboard-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.dashboard-content {
+  flex: 1;
+  padding: 20px;
+}
+
+@media (min-width: 1024px) {
+  .dashboard-content {
+    width: 16%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .dashboard-content {
+    width: 14%;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .right {
+    width: 92%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .right {
+    width: 84%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .right {
+    width: 86%;
+  }
+}
+
+

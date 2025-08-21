@@ -22,7 +22,7 @@ import styles from "./Menu.module.css";  // ✅ Corrected import
 
 const menuItems = [
   {
-    title: "DASHBOARD",
+    title: "MENU",
     items: [
       { icon: Home, label: "Home", href: "/" },
       { icon: Users, label: "Teachers", href: "/teachers" },
