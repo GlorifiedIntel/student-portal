@@ -1,5 +1,5 @@
 import Menu from "@/components/Menu";
-import styles from "./Layout.module.css";
+import "./Layout.module.css"; 
 
 export default function DashboardLayout({ children }) {
   return (

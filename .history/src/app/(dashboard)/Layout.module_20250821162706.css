@@ -1,9 +1,9 @@
-.dashboardlayout {
+.layout {
   display: flex;
   min-height: 100vh;
 }
 
-.dashboardcontent {
+.content {
   flex: 1;
   padding: 10px;
 }
