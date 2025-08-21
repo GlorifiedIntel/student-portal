@@ -7,7 +7,7 @@ export default function DashboardLayout({ children }) {
     <div className={styles.dashboardlayout}>
       <Menu />
       <main className={styles.dashboardcontent}>
-        <Navbar />
+      
         {children}
       </main>
     </div>
