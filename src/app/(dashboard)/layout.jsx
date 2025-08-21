@@ -6,7 +6,10 @@ export default function DashboardLayout({ children }) {
   return (
     <div className={styles.dashboardlayout}>
       <Menu />
-      <main className={styles.dashboardcontent}>{children}</main>
+      <main className={styles.dashboardcontent}>
+        <Navbar />
+        {children}
+      </main>
     </div>
   );
 }
