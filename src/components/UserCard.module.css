@@ -1,0 +1,45 @@
+.card {
+  border-radius: 1rem; /* rounded-2xl */
+  padding: 1rem; /* p-4 */
+  flex: 1;
+  min-width: 130px;
+  background-color: #fef9c3; /* default (yellow) */
+
+  /* alternate background colors for odd/even cards */
+}
+.card:nth-child(odd) {
+  background-color: #e9d5ff; /* purple */
+}
+
+.topRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.badge {
+  font-size: 10px;
+  background-color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  color: #16a34a; /* green-600 */
+  font-weight: 500;
+}
+
+.moreIcon {
+  color: #6b7280; /* gray-500 */
+  cursor: pointer;
+}
+
+.value {
+  font-size: 1.5rem; /* text-2xl */
+  font-weight: 600;  /* font-semibold */
+  margin: 1rem 0;
+}
+
+.type {
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 500;
+  color: #6b7280; /* gray-500 */
+}
