@@ -7,7 +7,7 @@ import {
 } from "recharts";
 import styles from "./CountChart.module.css";
 
-const CountChart = ({ boys, girls }) => {
+const CountChart = ({ boys, girls }: { boys: number; girls: number }) => {
   const data = [
     { name: "Total", count: boys + girls, fill: "white" },
     { name: "Girls", count: girls, fill: "#FAE27C" },

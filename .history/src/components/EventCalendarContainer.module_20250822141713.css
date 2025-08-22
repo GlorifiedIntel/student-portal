@@ -1,0 +1,49 @@
+.container {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 1.25rem; 
+  font-weight: 600;  
+  margin: 1rem 0;
+}
+
+.icon {
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.icon:hover {
+  color: #6b7280; 
+  transform: scale(1.1);
+}
+
+.eventListWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* New: hover effect for each event card */
+.eventCard {
+  background: #f9fafb; 
+  padding: 1rem;
+  border-radius: 0.5rem;
+  transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.eventCard:hover {
+  background: #f3f4f6; 
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,12 @@
+.event-day {
+  background-color: #e0f2fe; /* light blue */
+  border-radius: 50%;
+  color: #0284c7; /* darker blue */
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+
+.event-day:hover {
+  background-color: #0284c7;
+  color: #fff;
+}

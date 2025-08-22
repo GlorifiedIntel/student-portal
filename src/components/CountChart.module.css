@@ -1,0 +1,12 @@
+.chartContainer {
+  position: relative;
+  width: 100%;
+  height: 75%;
+}
+
+.centerImage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
