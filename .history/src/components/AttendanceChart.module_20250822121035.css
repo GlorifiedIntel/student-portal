@@ -1,0 +1,14 @@
+.legendItem {
+  display: flex;
+  align-items: center;
+  font-size: 0.875rem;
+  color: #374151; /* gray-700 */
+}
+
+.presentIcon {
+  color: #facc15; /* yellow-400 to match #FAE27C */
+}
+
+.absentIcon {
+  color: #38bdf8; /* sky-400 to match #C3EBFA */
+}

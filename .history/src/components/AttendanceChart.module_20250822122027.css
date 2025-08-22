@@ -1,0 +1,34 @@
+.legendItem {
+  display: flex;
+  align-items: center;
+  font-size: 0.875rem;
+  color: #374151; /* gray-700 */
+}
+
+.presentIcon {
+  color: #FAE27C; /* match bar color for present */
+}
+
+.absentIcon {
+  color: #C3EBFA; /* match bar color for absent */
+}
+
+.tooltipBox {
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  padding: 0.5rem 0.75rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tooltipLabel {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.tooltipItem {
+  display: flex;
+  align-items: center;
+  font-size: 0.875rem;
+  margin: 0.15rem 0;
+}

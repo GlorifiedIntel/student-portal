@@ -1,0 +1,14 @@
+.legendItem {
+  display: flex;
+  align-items: center;
+  font-size: 0.875rem;
+  color: #374151; 
+}
+
+.presentIcon {
+  color: #facc15; 
+}
+
+.absentIcon {
+  color: #38bdf8; 
+}
