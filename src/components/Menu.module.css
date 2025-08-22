@@ -1,6 +1,6 @@
 .menu {
   width: 200px;
-  background-color: #071E22;
+  background-color: #343434;
   border-right: 1px solid #e5e7eb;
   padding: 20px 10px;
   display: flex;
@@ -47,7 +47,7 @@
 }
 
 .menu-icon {
-  color: #f7a26a;
+  color: #FFDD4A;
   transition: color 0.2s ease;
 }
 

@@ -1,14 +1,16 @@
 .card {
-  border-radius: 1rem; /* rounded-2xl */
-  padding: 1rem; /* p-4 */
+  border-radius: .7rem; 
+  padding: 1rem; 
   flex: 1;
   min-width: 130px;
-  background-color: #fef9c3; /* default (yellow) */
+  background-color: #F7FFF7;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
 
   /* alternate background colors for odd/even cards */
 }
 .card:nth-child(odd) {
-  background-color: #e9d5ff; /* purple */
+  background-color: #F7FFF7; 
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .topRow {
@@ -19,21 +21,20 @@
 
 .badge {
   font-size: 10px;
-  background-color: white;
+  background-color: #343434;
   padding: 0.25rem 0.5rem;
-  border-radius: 9999px;
-  color: #16a34a; /* green-600 */
+  color: #f9fcfa; 
   font-weight: 500;
 }
 
 .moreIcon {
-  color: #6b7280; /* gray-500 */
+  color: #5f6061; 
   cursor: pointer;
 }
 
 .value {
-  font-size: 1.5rem; /* text-2xl */
-  font-weight: 600;  /* font-semibold */
+  font-size: 1.5rem; 
+  font-weight: 600;
   margin: 1rem 0;
 }
 
